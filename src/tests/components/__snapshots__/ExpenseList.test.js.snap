@@ -1,30 +1,55 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should map out and view expense in expensesArray 1`] = `
-Array [
-  <ExpenseListItem
-    amount={4500}
-    createdAt={"1969-12-23T00:00:00.000Z"}
-    description="Rent"
-    id={1}
-    key="1"
-    note="My house rent"
-/>,
-  <ExpenseListItem
-    amount={3500}
-    createdAt={"1970-01-01T00:00:00.000Z"}
-    description="Water"
-    id={2}
-    key="2"
-    note="Water usage rate"
-/>,
-  <ExpenseListItem
-    amount={85000}
-    createdAt={"1970-01-10T00:00:00.000Z"}
-    description="Fees"
-    id={3}
-    key="3"
-    note="Outstanding fee"
-/>,
-]
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <ExpenseListItem
+      amount={4500}
+      createdAt={"1969-12-23T00:00:00.000Z"}
+      description="Rent"
+      id={1}
+      key="1"
+      note="My house rent"
+    />
+    <ExpenseListItem
+      amount={3500}
+      createdAt={"1970-01-01T00:00:00.000Z"}
+      description="Water"
+      id={2}
+      key="2"
+      note="Water usage rate"
+    />
+    <ExpenseListItem
+      amount={85000}
+      createdAt={"1970-01-10T00:00:00.000Z"}
+      description="Fees"
+      id={3}
+      key="3"
+      note="Outstanding fee"
+    />
+  </div>
+</div>
 `;
