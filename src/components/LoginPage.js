@@ -7,7 +7,7 @@ import { startLogin } from '../actions/auth';
      <div className="box-layout__box">
     <h1 className="box-layout__title">Expensify</h1>
     <p>Keep track of your expenses</p>
-    <button onClick={startLogin}>Login</button>
+    <button className="button" onClick={startLogin}>Login to Google</button>
     </div>
      </div>
 );
