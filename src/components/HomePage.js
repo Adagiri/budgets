@@ -6,7 +6,6 @@ import { connect } from "react-redux";
 
 const HomePage = props => (
   <div>
-    {props.expenses.length > 0 ? "" : <p>No expense</p>}
     <ExpensesSummary />
     <FilterExpenses />
     <ExpenseList />
