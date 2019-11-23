@@ -9,7 +9,6 @@ const HomePage = props => (
     {props.expenses.length > 0 ? "" : <p>No expense</p>}
     <ExpensesSummary />
     <FilterExpenses />
-    <hr />
     <ExpenseList />
   </div>
 );
